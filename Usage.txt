@@ -1,4 +1,5 @@
 apt update && apt upgrade -y
 pkg install git && pkg install python -y
-cd Jaydenshacking
+cd Gmail-Phish
+pip install -r requirements
 python GmailPhish2.py
